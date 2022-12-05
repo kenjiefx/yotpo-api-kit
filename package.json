@@ -1,0 +1,26 @@
+{
+  "name": "yotpo-api-kit",
+  "version": "1.0.0",
+  "description": "A library that simplifies access to Yotpo API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjiefx/yotpo-api-kit.git"
+  },
+  "author": "Kenjie Terrado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenjiefx/yotpo-api-kit/issues"
+  },
+  "homepage": "https://github.com/kenjiefx/yotpo-api-kit#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
