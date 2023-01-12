@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+      "target": "ES5",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata":true,
+      "outDir": "./dist", // compiled JavaScript files 
+      "rootDir":"./src" // source TypeScript files
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*.ts"]
+}

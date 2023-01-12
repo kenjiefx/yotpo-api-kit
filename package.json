@@ -1,0 +1,34 @@
+{
+	"name": "yotpo-api-kit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "mocha",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenjiefx/kypton.git"
+	},
+	"author": "Ken Terrado",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kenjiefx/kypton/issues"
+	},
+	"homepage": "https://github.com/kenjiefx/kypton#readme",
+	"dependencies": {
+		"@google-cloud/firestore": "^6.4.1",
+		"assert": "^2.0.0",
+		"dotenv": "^16.0.3",
+		"fs": "^0.0.1-security",
+		"https": "^1.0.0",
+		"jsonwebtoken": "^9.0.0",
+		"reflect-metadata": "^0.1.13"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.1",
+		"mocha": "^10.2.0",
+		"typescript": "^4.9.4"
+	}
+}
