@@ -1,4 +1,4 @@
-import { AuthControllerV1, AuthControllerV3 } from "../auth/auth.controllers";
+import { AuthControllerV1, AuthControllerV3 } from "../auth/auth.controller";
 import { YotpoAPIVersion } from "./api.base.types";
 
 /**
@@ -13,3 +13,6 @@ export type AuthEndpointTypes <TApiVersion extends YotpoAPIVersion> =
     TApiVersion extends '1.0' ? AuthControllerV1 : 
     TApiVersion extends '3.0' ? AuthControllerV3
     : never;
+
+export type AuthSuccess = {accessToken:string}
+export type AuthError = {message:string}
